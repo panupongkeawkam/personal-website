@@ -1,25 +1,64 @@
 :root {
-    --device-height: 0px;
-    --device-width: 0px;
+  --device-height: 0px;
+  --device-width: 0px;
 }
+
 body {
-    background: grey;
-    width: 100%;
-    height: auto;
-    margin: 0;
+  background: grey;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
+
 .container-1 {
-    width: 100%;
-    height: var(--device-height);
-    background: #eee;
+  width: 84%;
+  padding: 0% 8% 0% 8%;
+  height: var(--device-height);
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
+
+.child-1-arrow {
+  width: 2%;
+  position: absolute;
+  bottom: 2%;
+  left: 49%;
+  opacity: .6;
+  animation: up-down 1.5s infinite alternate;
+}
+
+.child-1-title {
+  color: #111;
+  font-size: 84px;
+  font-family: 'Raleway', sans-serif;
+  animation: slide-right .75s;
+}
+
 .container-2 {
-    width: 100%;
-    height: var(--device-height);
-    background: #555;
+  width: 100%;
+  height: var(--device-height);
+  background: #555;
 }
+
 .container-3 {
-    width: 100%;
-    height: var(--device-height);
-    background: #999;
+  width: 100%;
+  height: var(--device-height);
+  background: #999;
+}
+@keyframes slide-right {
+  from {
+    transform: translateX(-480px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes up-down {
+  to {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
 }
