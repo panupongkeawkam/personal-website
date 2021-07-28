@@ -1,0 +1,25 @@
+:root {
+    --device-height: 0px;
+    --device-width: 0px;
+}
+body {
+    background: grey;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.container-1 {
+    width: 100%;
+    height: var(--device-height);
+    background: #eee;
+}
+.container-2 {
+    width: 100%;
+    height: var(--device-height);
+    background: #555;
+}
+.container-3 {
+    width: 100%;
+    height: var(--device-height);
+    background: #999;
+}
