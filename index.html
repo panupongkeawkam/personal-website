@@ -2,28 +2,491 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>PANU</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Raleway&display=swap&family=Varela+Round&display=swap"
+        rel="stylesheet">
 
-  <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>profile</title>
 </head>
 
 <body>
-  <div class="container-1">
-    <div class="child-1-title">PANUPONG</div>
-    <div class="child-1-title" style="font-size: 72px; animation-duration: 1s;">KEAWKAM</div>
-    <img src="icon/down-arrow-1.png" class="child-1-arrow">
-  </div>
-  <div class="container-2"></div>
-  <div class="container-3"></div>
+    <div class="direction-bar">
+        <a href="#about" class="direction-bar-btn">ABOUT
+            <hr class="direction-bar-btn-line">
+        </a>
+        <a href="#knownledge" class="direction-bar-btn">KNOWNLEDGE
+            <hr class="direction-bar-btn-line">
+        </a>
+        <a href="#music" class="direction-bar-btn">MUSIC
+            <hr class="direction-bar-btn-line">
+        </a>
+        <a href="#contact" class="direction-bar-btn">CONTACT
+            <hr class="direction-bar-btn-line">
+        </a>
+    </div>
+
+    <div class="container-1">
+        <div class="child-1-plat" style="width: 35%; background: #ccc"></div> <!-- scl 1.75 -->
+        <div class="child-1-plat" style="width: 30%; background: #bbb"></div> <!-- scl 1.5 -->
+        <div class="child-1-plat" style="background: #aaa">
+            <br>TECHNOLOGY<br>RPG GAMES<br>INDY
+            MUSIC<br>CHILLING<br>MINIMAL<br>BLACK<br>SIMPLE<br>NOODLE<br>MARVEL<br>FONT-EN<br>SAD SONG<br>54 WPM<br>RED
+            SWITCH<br>SILENT
+        </div>
+        <img src="pictures/profile.png" class="child-1-profile-pic">
+        <div class="child-1-title">PANUPONG</div>
+        <div class="child-1-title" style="font-size: calc(var(--device-height) * 0.04); animation-duration: 1s;">KEAWKAM
+        </div>
+
+        <img src="icon/down-arrow.png" class="child-1-arrow">
+    </div>
+    <div id="about" class="container-2">
+        <div class="child-2-title" data-aos="fade-down">TELL ABOUT ME ?</div>
+        <div class="child-2-box medium" data-aos="fade-up" style="flex-wrap: wrap; flex-direction: row;">
+            <h1 style="width: calc(var(--device-width)); text-align: center">ข้อมูลส่วนตัว</h1>
+            <div style="width: calc(var(--device-width) * 0.25);">
+                <p>ชื่อ: ภาณุพงศ์<br>นามสกุล: แก้วคำ<br>อายุ: 20<br>วันเกิด: 22 กุมภาพันธ์ 2544</p>
+            </div>
+            <div style="width: calc(var(--device-width) * 0.25);">
+                <p>ศาสนา: พุทธ<br>กรุ๊บเลือด: O<br>โทนสีที่ชอบ: ดำ, เทาอ่อน<br>สกิลพื้นฐาน: ออกแบบ, ความเป็นระเบียบ</p>
+            </div>
+            <div style="width: calc(var(--device-width) * 0.25);">
+                <p>อาหารที่ชอบ: กาแฟ, เนื้อๆๆ<br>งานอดิเรก: ฟังเพลง, ดูหนัง, สังสรรค์ใน Discord<br>แนวเพลงที่ชอบ:
+                    อินดี้, ผ่อนคลาย<br>ศิลปินที่ชอบ: PLASUI PLASUI</p>
+            </div>
+        </div>
+        <div class="child-2-box medium" data-aos="fade-right" style="align-items: flex-start;">
+            <h1><span data-aos-duration="1000" style="color: #c0292f; font-size: calc(var(--device-width) * 0.025);">|
+                </span>PANU x เรื่องราว</h1>
+            <p style="text-indent: 32px;">
+                ถ้าจะให้เล่าเกี่ยวกับผมหรอ? ขอเริ่มเรื่องตอน ม. ปลายละกัน ตอนผมขึ้น ม.
+                ปลายมาไม่รู้เลยว่าตัวเองจะเลือกเรียนสายอะไร เลยคิดไว้ว่าเลือก วิทย์-คณิต
+                ไว้ก่อนเผื่อเป็นทางเลือกในการเลือกคณะในมหาลัย
+                แต่กลับฝันสลายเนื่องจากทางโรงเรียนผมกำหนดว่าต้องเกรดเฉลี่ยวิชาวิทยาศาสตร์มากกว่า 2.8 ซึ่งก็นั่นแหละครับ
+                เกรดไม่ถึง... ;-; ก็เลยจำใจต้องเลือก ศิลป์-คำนวน ไปตอนนั้นก็รู้สึกดาวน์มากๆ ไม่มี passion
+                ในการเรียนสักเท่าไหร่ แต่ก็ถูๆ ไถๆ มาจนจบ ม. 6 ได้ เรียนบ้างเล่นบ้างชีวิตไม่ได้จริงใจกับการเรียน
+                จนถึงช่วงสอบเข้ามหาลัย ช่วงนั้นแบบเครียดสุดๆ ไปเลยไม่รู้จะไปทางไหนเลยคิดว่าลองเอาดีสักทางละกัน
+                เลยคิดว่าลองเรียนสายเทคโนโลยีเลย ดูไปดูมาก็มาเจอกับคณะนี้แหละ (IT - KMITL) ก็ลองเลือกผ่านรอบ 3
+                ไปเป็นอันดับหนึ่ง ปรากฎว่าตัวเองติดเฉย! ใจนึงก็ดีใจสุดๆ ใจนึงก็แบบจะเรียนได้ป่ะวะ
+                สรุปก็คือก็ลองดูไปก่อนละกัน พอเรียนได้ week แรกอยากจะร้องไห้ คือ
+                เหมือนชีวิตเปลี่ยนไปแบบสุดขีดต้องมาตั้งใจเรียน จริงจังกับการเรียนให้มากขึ้นแบบที่สุด
+                เพราะการเรียนสายนี้เป็นเหมือนศาสตร์นึงที่มีศาสตร์เฉพาะเลยก็ว่าได้ ช่วงแรกๆ
+                นี่ไม่รู้เรื่องอะไรสักอย่างก้าวเข้ามาแบบความรู้เรื่อง tech แบบติดลบไปเลย เครียดแบบมากๆๆ
+                ยิ่งกว่าตอนสอบเข้ามหาลัย เพราะตัวเองต้องยัดเข้ารู้ใหม่ๆ เข้าไปแบบโมโหราณ แทบจะไม่มีเวลาได้เล่นเลย
+                จนช่วงเวลาผ่านไปๆ เริ่มปรับตัวได้บ้าง ก็ดีขึ้นๆ เรื่อยๆ จนรู้สึกมี passion กับสิ่งนี้
+                ทำให้รู้สึกมีชีวิตอีกรอบ มี passion ในการใช้ชีวิต ดูเหมือนการที่ได้มาเจอคณะนี้มันเหมือนโชคชะตาล้วนๆ
+                แต่ก็ดีที่มันนำมาเจอสิ่งที่น่าจะชอบจริงๆ อันนี้ก็เป็นเรื่องราวคล่าวๆ เกี่ยวกับผมในเรื่องการศึกษา
+                ส่วนกิจวัตประจำวันในแต่ละวันก็คงจะเหมือนๆ กับคนอื่นแหละ เพราะโควิดอ่ะเนอะ...
+                มันเหมือนพรากทุกอย่างชีวิตอยู่แต่หน้าคอม เรียนหน้าคอม ทำงานหน้าคอม เล่นหน้าคอม หน้าเบื่อสุดๆ
+                แต่ก็ยังดีที่ว่าส่วนตัวก็ชอบอยู่แต่บ้าน อยู่บ่อยๆ อยู่แล้ว
+            </p>
+            <p style="text-indent: 16px;">
+                สุดท้ายก็ไม่รู้จะพิมพ์อะไรต่อละ ขอรับบทเป็น life coach หน่อยละกัน เวลาเราแบบรู้สึกแบบนอยๆ กับชีวิต
+                ก็แค่ให้คิดว่าเดี๋ยวมันผ่านๆ ไปอ่ะแหละมันไม่แย่แบบนี้ทุกวันหรอก
+                แล้วก็ใช้ชีวิตไปโดยไม่ต้องคาดหวังอะไรมากมายอะไรก็เกิดมันคงเกิดเองแหละจะดีหรือไม่ดียังไงก็ต้องดำเนินต่อไป
+                ดูอย่างเรื่องราวของเราที่เขียนเราก็เจอหนักๆ ช่วงแรกๆ ก็เยอะนะแทบจะอยากซิ่วด้วยซ้ำ
+                แต่พอลองอดทนกับช่วงนั้นๆ ไป มันก็กลายเป็นว่าดีเฉย
+            </p>
+        </div>
+        <div class="child-2-box small" data-aos="fade-right">
+            <h1>Education</h1>
+            <div onclick="javascript: window.open('http://www.pcb.ac.th/');" class="child-2-box edu-link shadow"
+                data-aos="fade-left" data-aos-duration="200" style="--edu-color-by-theme: #1884da">
+                <img src="icon/pb.png" class="edu-icon">
+                <p style="color: #242424">โรงเรียนประชาราษฎร์บำเพ็ญ</p>
+            </div>
+            <div onclick="javascript: window.open('http://tupr.ac.th/');" class="child-2-box edu-link shadow"
+                data-aos="fade-left" data-aos-duration="500" style="--edu-color-by-theme: #ec0ca1">
+                <img src="icon/tupr.png" class="edu-icon">
+                <p style="color: #242424">โรงเรียนเตรียมอุดมศึกษาพัฒนาการรัชดา</p>
+            </div>
+            <div onclick="javascript: window.open('http://kmitl.ac.th/');" class="child-2-box edu-link shadow"
+                data-aos="fade-left" data-aos-duration="800" style="--edu-color-by-theme: #f84c04">
+                <img src="icon/kmitl.png" class="edu-icon">
+                <p style="color: #242424">สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</p>
+            </div>
+        </div>
+        <div class="child-2-box small" data-aos="fade-left">
+            <h1>High School Friends</h1>
+            <div class="picture-auto-slide">
+                <img src="pictures/friends/1.png" class="friend-picture">
+                <img src="pictures/friends/2.png" class="friend-picture">
+                <img src="pictures/friends/3.png" class="friend-picture">
+                <img src="pictures/friends/4.png" class="friend-picture">
+                <img src="pictures/friends/5.png" class="friend-picture">
+            </div>
+        </div>
+        <div class="child-2-box medium" style="background-color: #eee; height: 120px; border-radius: 8px 8px 0px 0px">
+            <h1 style="color: #242424; letter-spacing: 32px;">A Life In School</h1>
+        </div>
+        <div id="picture" class="child-2-box medium event-picture"
+            style="height: calc(var(--device-width) * 0.5625); flex-direction: row;">
+            <img onclick="pictureToggle('back')" class="picture-toggle-btn" src="icon/left-arrow.png">
+            <img onclick="pictureToggle('next')" class="picture-toggle-btn" src="icon/right-arrow.png">
+        </div>
+    </div>
+    <div id="knownledge" class="container-3">
+        <div class="child-3-box w-100 around-shadow">
+            <h1 style="color: black" data-aos="fade-right"><span
+                    style="color: #1b7ee1; font-size: calc(var(--device-width) * 0.025);">|</span> KNOWNLEDGE</h1>
+            <p style="color: black;">
+                ความรู้หลักๆ ที่ผมมีนั้นส่วนใหญ่จะเป็นเรื่อง Programming ซะมากกว่า
+                แต่ก็มีสกิลการแต่งภาพหรือเรื่องภาพเคลื่อนไหวนิดหน่อย แต่ผมขอยกแค่เรื่อง Programming
+                มาเนื่องจากเห็นเป็นรูปธรรมได้ชัดเจนที่สุด แล้วข้างล่างก็คือหน้าตาของ Application หรือ UI
+                ที่ผมได้พัฒนามาโดยจะเป็น
+            </p>
+            <br><br>
+            <img src="pictures/lucky-random.png" data-aos="fade-right" class="shadow" width="50%">
+            <p style="color: #555">• โปรแกรมสำหรับการสุ่มหรือตัดสินใจบางสิ่งในชีวิตประจำวัน โดยถูกพัฒนามาจากภาษา Python
+                100% ทั้ง Front-en และ Back-en โดยมีการดึง Library Tkinter มาใช้</p>
+            <br><br>
+            <img src="pictures/student-grading-app.png" data-aos="fade-right" class="shadow" width="50%">
+            <p style="color: #555">• โปรแกรมสำหรับการเก็บข้อมูลนักศึกษาที่พัฒนาโดยภาษา C 100% โดยสามารถ ลบ, เปลี่ยน,
+                และดึงข้อมูลได้ และยังสามารถตัดเกรดของนักศึกษาผ่านคะแนนและแสดงออกมาเป็นตารางได้</p>
+            <br><br>
+            <img src="pictures/haze-maize-meat.png" data-aos="fade-right" class="shadow" width="50%">
+            <p style="color: #555">• เป็นเกมที่สร้างโดยใช้ HTML, CSS, JavaScript โดยรันผ่าน Browser โดยในตัวเกมยังมี
+                link ไปยัง Landing Page ของเกมได้อีกด้วย</p>
+            <br><br>
+            <p style="color: black">ถ้าหากต้องการทดลองใช้โปรแกรมหรือว่าต้องการศึกษาเพิ่มเติม
+                สามารถคลิ๊กที่ปุ่มจากกล่องด้านล่างได้เลย (ลิงค์จะเป็น Git-Hub Repository จะต้องทำการ pull
+                ลงเครื่องถึงสามารถทดสอบได้)</p>
+        </div>
+        <div class="child-3-box w-50 around-shadow" data-aos="zoom-in" data-aos-duration="600">
+            <h2 style="color: black;">Programming Project Git-Hub</h2>
+            <div class="project-link shadow" onclick="window.open('https://github.com/warit/PSIT_project');">
+                <img src="icon/python-logo.png" style="height: calc(var(--device-width) * 0.03); margin-right: 16px;">
+                <p style="color: black;">Python - Lucky Random</p>
+            </div>
+            <div class="project-link shadow" onclick="window.open('https://github.com/warit972177747/databasecompro');">
+                <img src="icon/c-logo.png" style="height: calc(var(--device-width) * 0.03); margin-right: 16px;">
+                <p style="color: black;">C - Student Grading Application</p>
+            </div>
+            <div class="project-link shadow"
+                onclick="window.open('https://github.com/panupongkeawkam/hitokage-haze_maize_meat');">
+                <img src="icon/html-logo.png" style="height: calc(var(--device-width) * 0.03); margin-right: 16px;">
+                <p style="color: black;">HTML - Haze Maize Meat</p>
+            </div>
+        </div>
+        <div class="child-3-box w-50 around-shadow" data-aos="zoom-in" data-aos-duration="1000">
+            <h2 style="color: black;">Programming Certification</h2>
+            <img src="pictures/borntodev-certificate.png" width="75%" class="shadow">
+            <p style="color: black; text-indent: 16px;">
+                ชั่วโมงปิดเทอมผมก็ใช้เวลาว่างในการทบทวนการทำ Problem Solving โดยใช้ภาษา Python และ C
+                ที่เรียนมาจนทำให้ติดอับดันต้นๆ ใน Dev-Lab ของ BornToDev
+            </p>
+        </div>
+    </div>
+    <div id="music" class="container-4">
+        <div class="child-4-title">MY PLALIST</div>
+        <div class="child-4-category">
+            <h1 data-aos="fade-right"><span style="color: #dfcf2e; font-size: calc(var(--device-width) * 0.025);">|
+                </span>CHILLING & BEATS</h1>
+        </div>
+        <div class="music-container">
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/52Qy2thUnL9r4gnBFHhNRU?si=eee7755c4f5442fc" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/5of5v9UbI0rPdRQxDfBzdX?si=8d7b6d6f82d74325" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/6fu0MeVP99K8N1freUOCLf?si=018aef89358b4fdf" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/22GGhKah0RRhcrX11O0TsY?si=2b9370bc04104e54" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0wDmF1191XQyp9UtzURrc4?si=95f41bf9782e493b" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0TepVMoPSYpM4YNupvGjd2?si=80ff2768a8474d78" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/3BOLvebwNL2l6WrGxZTo8l?si=db3e303f81b740f4" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/1C3TmJu3rY0jvZjE1k5QNK?si=47546524c8044397" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0I07aQD7tu0Zhhd6AWLJo0?si=1fb700d35b904bcb" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/6d9dBBQOf6NK2Dq5Zh6MEa?si=0765f8a04f144363" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/1UkG2ffYiWhKhKMFGRFd2Z?si=9b4a4e2fbd934cbf" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/5u8jq8bQI57LPRybn5Siqt?si=8e41df7caf5042e5" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/1OonnWxgc9AVR1p92yFPIa?si=351abf46318e471b" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0xMa1z5F9L0IGtxAVzf9fQ?si=f70ffd905b7146dd" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/5EAj95LzM5734JZuHujtkm?si=deb78110f65d46b5" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/6RGhABiKgsnWTMNsIYcQqK?si=4042694db75f4536" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4kLD5mY6hir91J5korUFMu?si=ba138e44f28e45b5" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/63pXp2dy1s4zt5zxWZPdpH?si=2427070174d84477" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/78oLZynoOgkf2dsaeqdR93?si=90e6f4a9867944a1" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/2t543Lall1lDvvSq5JKlnG?si=aea15249a364441e" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/5lb6256dCibUC0M2mhLe2S?si=b53217326edc4dc1" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/3HDeWt34FhpkjoqiFh5h4C?si=9c5266cb0dad4b47" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/3RnphgxVm7wjU0kUjgcuA1?si=a80bc67767d84914" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/3ReGvTxr0tsBDCyGKJarFV?si=ae42de35497e4d2a" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/5SsjqOZlUrYaidBaaDWgox?si=c9eaca9fa71a489a" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/19N91hy0baUteRsCAH8OOK?si=c39bd30831dc406c" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/1PHfBcpQN6TyLwDwfHWQ2e?si=45ec2216b0ff45f6" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+
+        <div class="child-4-category">
+            <h1 data-aos="fade-right"><span style="color: #dfcf2e; font-size: calc(var(--device-width) * 0.025);">|
+                </span>SADNESS & OLD DAYS</h1>
+        </div>
+        <div class="music-container">
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/1KrWr57MpaC5WGUpUpUToW?si=a6d88297cd84416d" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/20r8bPumn1cybDcUEh2NPZ?si=c4deed76a06f4428" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0LLETxISOeZVam4l0RwcpV?si=51e2e7a8c8234af2" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/5J6oGrLHVYxXgD5VZtcT3H?si=595bc6f68d694413" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/7I77ZzqmnNTcnvKUz4gA6Z?si=1e6edcf3a3f449c8" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4OnUR8OWpOjYRNDIR8cfli?si=20fda587d3634c13" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/7uvyBv9i8OEk8Jc2MHzaoB?si=e4b3716e73874aba" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4HAn4r6gO3E5taNH7uBCNb?si=7f9c2c94425746d6" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/73RdWaAs1KTE0nS1vVI7Px?si=8269310fbbcc4b6d" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/2NAtO3nfeKwofAkjW2JdBs?si=c012b5e60e624fbd" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0SUo6DpSJghQRukwkG0Gyn?si=298b48586c1d425a" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4SnwLCTupjnZqxplB1bk7m?si=6f51b21981ba4d3c" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/5fDc3i3gwjyNCBbln2ZoVn?si=7e4338acad3f45ad" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0xdKsasIV2NSzprfBOvF8x?si=5306389c3aa648b9" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/3gbxiZ7aYJb4hQ7H3vUv9d?si=f95ea58a42404f89" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4U8tEa3fzFcN1oNQJ804m3?si=0c4aba0f0b66422f" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4Vp19s4bX5XU1a25sgIxRx?si=32305eca2fec4d5a" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/3gDONtKnX385TjJo0328TS?si=c3d2b00323ee4813" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/07gnMzYkAWXX2DNXHQwDHR?si=a021ec4033af427d" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4onenyn437lkg5tpnIBpdY?si=915f81966a1a43ab" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/57J8KjGK32Ch0ZPMuHScOr?si=08cecab789bc450a" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/1nBXvPYzDOJUP67JJFNkpv?si=cdfa83115a344163" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/3uMd1fpncGQ1GvzuvDVBxc?si=0eaf7c3dab20413b" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/5entgkJVfEK82H7fgjzeau?si=7445c87652f74f73" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/6ErAsIiAY6I44yW5d3WXFM?si=788f50e0310749b0" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/73Tm03kvqU9VNnu86LSyND?si=5365fe7c6cb140a2" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/365qDNmZbxNLGCNPm8jAKw?si=348838b89fd4439f" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/7IjOfWwy4AHy7sWHnVujeJ?si=81500d174339460b" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4W9itMfP8JV89wcfQgCm13?si=5a44150041ef4c39" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+
+        <div class="child-4-category">
+            <h1 data-aos="fade-right"><span style="color: #dfcf2e; font-size: calc(var(--device-width) * 0.025);">|
+                </span>IN LOVE</h1>
+        </div>
+        <div class="music-container"><iframe class="music-box"
+                src="https://open.spotify.com/embed/track/3oA6oLVt9rKN6eqVrsAtsr?si=130d360515924c54" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/5mzmuI6rsXS6fnPMXSXBgc?si=038259ad61d04543" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/6D5sLiAd0wxePlvqvsgEx1?si=f5d8ada8ee6c43fd" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4WBQhTpQ9cAPiZuEQWztxd?si=4c44f447e1434aa7" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/6A1J0V0lE0kvTfR5pJcqW1?si=9d39738ab14a45a8" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/2RU5vM4MJsKbym5bnJEQpf?si=cb3a0b1970194529" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/6mIPyn4Ke7498EXIwx6OuP?si=95946aba5d8d4210" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/3ReGvTxr0tsBDCyGKJarFV?si=c0f95d2b6e644d7e" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/6sBZo67My9ZlNsR3xND0mr?si=301d3304952043f3" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/498gflahZ3mxYEVuO7nvb9?si=c01197188b5049c2" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0n2V4J157Ag61Rr1bWkiTG?si=03d452d979d84588" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4OZjDh3pxthm3Ig9Fs7C7N?si=a853b6ac1ed243d3" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/2S0ibstFituekXr1rEjbyY?si=9128ff207e9d4891" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0QEQhT1kUxAmoCtug66anM?si=7db48e91194e4721" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/4UxLtPL9aOHTz8XiVJsthQ?si=d87ade34f4424e2d" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/63pXp2dy1s4zt5zxWZPdpH?si=0d1ba76331b04b71" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/1nQkxTE05BneoWCmGYjrzF?si=1ad21567dfaa46e8" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/0ZcyX8hFV1jdJNWOI8mMXF?si=91a272beb8d1450a" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="music-box"
+                src="https://open.spotify.com/embed/track/6xGykOmBl2GBYyIr389ehL?si=b8f780b0860b436e" frameBorder="0"
+                allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </div>
+    <div id="contact" class="container-5" data-aos="fade-up">
+        <div class="child-5-box">
+            <h2 style="color: black;">Social</h2>
+            <hr>
+            <div class="social-link" onclick="copyText('63070132@it.kmitl.ac.th')">
+                <img src="icon/email.png" class="social-icon">
+                63070132@it.kmitl.ac.th
+            </div>
+            <div class="social-link" onclick="copyText('098-xxx-xxxx')">
+                <img src="icon/call.png" class="social-icon">
+                098-xxx-xxxx
+            </div>
+            <div class="social-link" onclick="window.open('https://github.com/panupongkeawkam')">
+                <img src="icon/github.png" class="social-icon">
+                panupongkeawkam
+            </div>
+            <div class="social-link" onclick="window.open('https://www.facebook.com/panupongkeawkam/')">
+                <img src="icon/facebook.png" class="social-icon">
+                Panupong Keawkam
+            </div>
+            <div class="social-link" onclick="window.open('https://www.instagram.com/panupkk')">
+                <img src="icon/instagram.png" class="social-icon">
+                panupkk
+            </div>
+        </div>
+        <div class="child-5-box">
+            <h2 style="color: black;">Company</h2>
+            <hr>
+            สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง<br>
+            คณะ: เทคโนโลยีสารสนเทศ<br>
+            สาขา: เทคโนโลยีสารสนเทศ<br>
+            แขนง: ว่าที่ซอฟต์แวร์เอนจิเนีย<br>
+        </div>
+        <div class="child-5-box">
+            <h2 style="color: black;">Address</h2>
+            <hr>
+            1 ซอย ฉลองกรุง 1 แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร 10520
+        </div>
+    </div>
+
+    <img id="gototop" src="icon/up-arrow.png" class="go-to-top" onclick="window.scrollTo(0, 0)">
 </body>
+
+<script>
+    AOS.init({
+        offset: 200,
+        duration: 600
+    });
+</script>
 
 </html>
